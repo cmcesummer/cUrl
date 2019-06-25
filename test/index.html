@@ -12,6 +12,8 @@
         !(function() {
             window.location.href = window.location.origin + window.location.pathname + '?a=2#/path?c=3'
             console.log(cUrl.get())
+            // set 用法
+            // cUrl.set({hash:'/pathhhhhh', query: {c:null, b:6}},{type: 'replace'})
         })();    
     </script>
 </body>

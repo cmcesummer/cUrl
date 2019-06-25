@@ -5,13 +5,13 @@ import filesize from "rollup-plugin-filesize";
 export default {
     input: "src/index.js",
     output: {
-        file: "dist/cUrl.js",
+        file: "dist/index.js",
         format: "umd",
-        name: 'cUrl'
+        name: 'ctrlUrl'
     },
     plugins: [
         resolve({}),
-        // uglify(),
+        uglify(),
         filesize()
     ]
 };
