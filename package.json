@@ -1,18 +1,20 @@
 {
   "name": "ctrl-url",
-  "version": "1.2.2",
+  "version": "1.2.4",
   "description": "control url params",
   "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c rollup.config.js"
   },
+  "files": ["dist", "test"],
+  "keywords": ["url", "control", "getUrlParams", "ctrlUrl"],
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cmcesummer/cUrl.git"
   },
   "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/cmcesummer/cUrl/issues"
   },
